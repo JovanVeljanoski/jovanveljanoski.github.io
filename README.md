@@ -1,3 +1,3 @@
 # jovanveljanoski.github.io
 
-My personal profile websitesite.
+My personal profile website.
