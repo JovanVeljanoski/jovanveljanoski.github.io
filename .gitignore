@@ -1,0 +1,6 @@
+# Private source material used to write the site content. Never publish.
+research/
+RESEARCH-NOTES.md
+
+# OS / editor
+.DS_Store
