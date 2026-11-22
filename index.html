@@ -5,15 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Jovan Veljanoski — Data scientist</title>
   <meta name="description" content="Data scientist leading applied AI at Tiqets. I also build my own products, mostly around language learning, and used to study galaxies.">
+  <link rel="canonical" href="https://jlabs.dev/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Jovan Veljanoski">
   <meta property="og:title" content="Jovan Veljanoski — Data scientist">
   <meta property="og:description" content="Applied AI at Tiqets, independent projects, and a past life in astrophysics.">
-  <meta property="og:image" content="assets/jovan.jpg">
-  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jlabs.dev/">
+  <meta property="og:image" content="https://jlabs.dev/assets/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Jovan Veljanoski, data scientist">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#0b0c0f">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/jetbrains-mono-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -35,9 +41,8 @@
 
   <main id="main">
 
-    <!-- Intro -->
     <section class="hero wrap">
-      <div class="hero-copy">
+      <div>
         <p class="eyebrow">Data scientist</p>
         <h1>Hi, I'm Jovan.</h1>
         <p class="lead">
@@ -45,14 +50,13 @@
         </p>
         <div class="actions">
           <a class="btn btn-primary" href="assets/Jovan-Veljanoski-CV.pdf" download>Download CV</a>
-          <a class="btn" href="https://github.com/JovanVeljanoski" rel="me noopener">GitHub</a>
-          <a class="btn" href="https://www.linkedin.com/in/jovanvel/" rel="me noopener">LinkedIn</a>
+          <a class="btn" href="https://github.com/JovanVeljanoski" rel="me">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/jovanvel/" rel="me">LinkedIn</a>
         </div>
       </div>
       <img class="portrait" src="assets/jovan.jpg" width="460" height="460" alt="Portrait of Jovan Veljanoski">
     </section>
 
-    <!-- Career -->
     <section class="section wrap" id="work" aria-labelledby="work-h">
       <header class="section-head">
         <p class="eyebrow">Career</p>
@@ -96,7 +100,6 @@
       </div>
     </section>
 
-    <!-- Independent projects -->
     <section class="section wrap" id="projects" aria-labelledby="projects-h">
       <header class="section-head">
         <p class="eyebrow">Independent projects</p>
@@ -106,29 +109,28 @@
 
       <article class="card card-lg feature">
         <div class="card-top">
-          <div class="head"><span class="logo logo-lg" style="--logo-bg:#0d1b2c"><img src="assets/logos/mylexilingo.svg" alt="" width="40" height="40"></span><h3>MyLexilingo</h3></div>
-          <a class="link-out" href="https://www.mylexilingo.com/" rel="noopener">mylexilingo.com</a>
+          <div class="head"><span class="logo logo-lg navy"><img src="assets/logos/mylexilingo.svg" alt=""></span><h3>MyLexilingo</h3></div>
+          <a class="link-out" href="https://www.mylexilingo.com/">mylexilingo.com</a>
         </div>
         <p>A language-learning platform that I designed and built myself. Teachers and learners bring their own vocabulary, and the app turns it into exercises, conversations and stories at the right level.</p>
         <p>It started with a simple frustration: there wasn't enough practice material for learning Macedonian, and I was learning Dutch at the time.</p>
-        <!-- PROMO SLOT: replace this comment with a MyLexilingo promo block (screenshot / short demo / call to action) when ready. -->
       </article>
 
       <div class="grid-4">
-        <a class="card tile" href="https://www.epfolium.com/" rel="noopener">
-          <span class="head"><span class="logo" style="--logo-bg:#f1efdf"><img src="assets/logos/epfolium.svg" alt="" width="32" height="32"></span><h3>Epfolium</h3></span>
+        <a class="card tile" href="https://www.epfolium.com/">
+          <div class="head"><span class="logo light"><img src="assets/logos/epfolium.svg" alt=""></span><h3>Epfolium</h3></div>
           <p>Describe an idea you half remember from a podcast and jump to the exact moment it was said.</p>
         </a>
-        <a class="card tile" href="https://mustang.jlabs.dev/" rel="noopener">
-          <span class="head"><span class="logo full"><img src="assets/logos/mustang.svg" alt="" width="44" height="44"></span><h3>Mustang Tracker</h3></span>
+        <a class="card tile" href="https://mustang.jlabs.dev/">
+          <div class="head"><span class="logo full"><img src="assets/logos/mustang.svg" alt=""></span><h3>Mustang Tracker</h3></div>
           <p>Follows Ford Mustang asking prices across Dutch marketplaces, with price history.</p>
         </a>
-        <a class="card tile" href="https://vafla.mk/" rel="noopener">
-          <span class="head"><span class="logo" style="--logo-bg:#1b1e27"><img src="assets/logos/vafla.svg" alt="" width="32" height="32"></span><h3>Vafla · Вафла</h3></span>
+        <a class="card tile" href="https://vafla.mk/">
+          <div class="head"><span class="logo"><img src="assets/logos/vafla.svg" alt=""></span><h3>Vafla · Вафла</h3></div>
           <p>A daily Macedonian word-swap puzzle, made for fun.</p>
         </a>
-        <a class="card tile" href="https://pcelka.mk/" rel="noopener">
-          <span class="head"><span class="logo" style="--logo-bg:#f6f1e0"><img src="assets/logos/pcelka.svg" alt="" width="32" height="32"></span><h3>Pčelka · Пчелка</h3></span>
+        <a class="card tile" href="https://pcelka.mk/">
+          <div class="head"><span class="logo light"><img src="assets/logos/pcelka.svg" alt=""></span><h3>Pčelka · Пчелка</h3></div>
           <p>A Macedonian take on the Spelling Bee game.</p>
         </a>
       </div>
@@ -136,19 +138,17 @@
       <p class="more"><a class="btn" href="projects.html">See all projects →</a></p>
     </section>
 
-    <!-- Open source -->
     <section class="section wrap" id="open-source" aria-labelledby="oss-h">
       <header class="section-head">
         <p class="eyebrow">Open source</p>
         <h2 id="oss-h">Vaex, briefly</h2>
       </header>
       <div class="prose">
-        <p>For several years I co-founded and contributed to <a href="https://github.com/vaexio/vaex" rel="noopener">Vaex</a>, a Python library for working with tables that are bigger than a computer's memory. I helped shape its machine-learning tools and gave talks about it at Python conferences.</p>
-        <p>I stepped away from it in 2023. It's an older project now and newer tools do the job better, but it's still there on GitHub. You can find my other open-source work on <a href="https://github.com/JovanVeljanoski" rel="me noopener">my GitHub profile</a>.</p>
+        <p>For several years I co-founded and contributed to <a href="https://github.com/vaexio/vaex">Vaex</a>, a Python library for working with tables that are bigger than a computer's memory. I helped shape its machine-learning tools and gave talks about it at Python conferences.</p>
+        <p>I stepped away from it in 2023. It's an older project now and newer tools do the job better, but it's still there on GitHub. You can find my other open-source work on <a href="https://github.com/JovanVeljanoski" rel="me">my GitHub profile</a>.</p>
       </div>
     </section>
 
-    <!-- Background -->
     <section class="section wrap" id="background" aria-labelledby="bg-h">
       <header class="section-head">
         <p class="eyebrow">Background</p>
@@ -162,20 +162,20 @@
             <h3>Postdoc, University of Groningen</h3>
             <span class="meta">2014 – 2018</span>
           </div>
-          <p>I used data from ESA's Gaia satellite to find stars in the Milky Way that were born elsewhere. As part of the group of <a href="https://www.astro.rug.nl/~ahelmi/dev/" rel="noopener">Amina Helmi</a>.</p>
+          <p>I used data from ESA's Gaia satellite to find stars in the Milky Way that were born elsewhere. As part of the group of <a href="https://www.astro.rug.nl/~ahelmi/dev/">Amina Helmi</a>.</p>
         </article>
         <article class="card">
           <div class="card-top">
             <h3>PhD, University of Edinburgh</h3>
             <span class="meta">2010 – 2014</span>
           </div>
-          <p>I studied how star clusters move around the Andromeda galaxy, to learn how it grew by absorbing smaller galaxies. Under the guidance of <a href="https://amnferguson.wixsite.com/annetteferguson" rel="noopener">Annette Ferguson</a>.</p>
+          <p>I studied how star clusters move around the Andromeda galaxy, to learn how it grew by absorbing smaller galaxies. Under the guidance of <a href="https://amnferguson.wixsite.com/annetteferguson">Annette Ferguson</a>.</p>
         </article>
       </div>
 
       <ul class="chips" aria-label="Research archives">
-        <li><a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Veljanoski%2C%20J.%22" rel="noopener">All papers on NASA ADS</a></li>
-        <li><a href="https://era.ed.ac.uk/items/18a1020a-cd60-4ca2-a9ce-fd4037cbeadb" rel="noopener">PhD thesis</a></li>
+        <li><a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Veljanoski%2C%20J.%22">All papers on NASA ADS</a></li>
+        <li><a href="https://era.ed.ac.uk/items/18a1020a-cd60-4ca2-a9ce-fd4037cbeadb">PhD thesis</a></li>
       </ul>
     </section>
 
@@ -186,8 +186,8 @@
       <p>Jovan Veljanoski</p>
       <p class="footer-links">
         <a href="assets/Jovan-Veljanoski-CV.pdf" download>Download CV</a>
-        <a href="https://github.com/JovanVeljanoski" rel="me noopener">GitHub</a>
-        <a href="https://www.linkedin.com/in/jovanvel/" rel="me noopener">LinkedIn</a>
+        <a href="https://github.com/JovanVeljanoski" rel="me">GitHub</a>
+        <a href="https://www.linkedin.com/in/jovanvel/" rel="me">LinkedIn</a>
       </p>
     </div>
   </footer>

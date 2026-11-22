@@ -5,15 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Projects — Jovan Veljanoski</title>
   <meta name="description" content="Independent projects by Jovan Veljanoski: products, games and puzzles, and experiments with AI and developer tools.">
+  <link rel="canonical" href="https://jlabs.dev/projects.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Jovan Veljanoski">
   <meta property="og:title" content="Projects — Jovan Veljanoski">
   <meta property="og:description" content="Products, games and experiments I build on my own.">
-  <meta property="og:image" content="assets/jovan.jpg">
-  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jlabs.dev/projects.html">
+  <meta property="og:image" content="https://jlabs.dev/assets/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Jovan Veljanoski, data scientist">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#0b0c0f">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/jetbrains-mono-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -51,14 +57,14 @@
       <h2 id="g-products">Products</h2>
       <div class="grid-2">
         <article class="card project">
-          <span class="head"><span class="logo" style="--logo-bg:#0d1b2c"><img src="assets/logos/mylexilingo.svg" alt="" width="32" height="32"></span><h3>MyLexilingo</h3></span>
+          <div class="head"><span class="logo"><img src="assets/logos/mylexilingo.svg" alt=""></span><h3>MyLexilingo</h3></div>
           <p>A language-learning platform. Teachers and learners bring their own vocabulary and get exercises, conversations and stories at the right level. My main independent project.</p>
-          <p class="links"><a href="https://www.mylexilingo.com/" rel="noopener">Visit</a></p>
+          <p class="links"><a href="https://www.mylexilingo.com/">Visit</a></p>
         </article>
         <article class="card project">
-          <span class="head"><span class="logo" style="--logo-bg:#f1efdf"><img src="assets/logos/epfolium.svg" alt="" width="32" height="32"></span><h3>Epfolium</h3></span>
+          <div class="head"><span class="logo light"><img src="assets/logos/epfolium.svg" alt=""></span><h3>Epfolium</h3></div>
           <p>Describe an idea you half remember from a podcast, read the matching passages in context and jump to the exact moment in the recording.</p>
-          <p class="links"><a href="https://www.epfolium.com/" rel="noopener">Visit</a></p>
+          <p class="links"><a href="https://www.epfolium.com/">Visit</a></p>
         </article>
       </div>
     </section>
@@ -67,24 +73,24 @@
       <h2 id="g-fun">Games and fun</h2>
       <div class="grid-3">
         <article class="card project">
-          <span class="head"><span class="logo full"><img src="assets/logos/mustang.svg" alt="" width="32" height="32"></span><h3>Mustang Tracker NL</h3></span>
+          <div class="head"><span class="logo full"><img src="assets/logos/mustang.svg" alt=""></span><h3>Mustang Tracker NL</h3></div>
           <p>Follows asking prices of Ford Mustangs across Dutch marketplaces, with price history for each car.</p>
-          <p class="links"><a href="https://mustang.jlabs.dev/" rel="noopener">Visit</a></p>
+          <p class="links"><a href="https://mustang.jlabs.dev/">Visit</a></p>
         </article>
         <article class="card project">
-          <span class="head"><span class="logo" style="--logo-bg:#1b1e27"><img src="assets/logos/vafla.svg" alt="" width="32" height="32"></span><h3>Vafla · Вафла</h3></span>
+          <div class="head"><span class="logo"><img src="assets/logos/vafla.svg" alt=""></span><h3>Vafla · Вафла</h3></div>
           <p>A daily Macedonian word puzzle: swap letters to complete intersecting five-letter words in 15 moves.</p>
-          <p class="links"><a href="https://vafla.mk/" rel="noopener">Play</a><a href="https://github.com/JovanVeljanoski/mkwaffle" rel="noopener">Code</a></p>
+          <p class="links"><a href="https://vafla.mk/">Play</a><a href="https://github.com/JovanVeljanoski/mkwaffle">Code</a></p>
         </article>
         <article class="card project">
-          <span class="head"><span class="logo" style="--logo-bg:#f6f1e0"><img src="assets/logos/pcelka.svg" alt="" width="32" height="32"></span><h3>Pčelka · Пчелка</h3></span>
+          <div class="head"><span class="logo light"><img src="assets/logos/pcelka.svg" alt=""></span><h3>Pčelka · Пчелка</h3></div>
           <p>A Macedonian Spelling Bee: make words from seven letters, always using the centre one.</p>
-          <p class="links"><a href="https://pcelka.mk/" rel="noopener">Play</a><a href="https://github.com/JovanVeljanoski/mkbee" rel="noopener">Code</a></p>
+          <p class="links"><a href="https://pcelka.mk/">Play</a><a href="https://github.com/JovanVeljanoski/mkbee">Code</a></p>
         </article>
         <article class="card project">
-          <span class="head"><span class="logo" style="--logo-bg:#1b1e27"><img src="assets/logos/github.svg" alt="" width="32" height="32"></span><h3>Micro Machines tribute</h3></span>
+          <div class="head"><span class="logo"><img src="assets/logos/github.svg" alt=""></span><h3>Micro Machines tribute</h3></div>
           <p>A playable tribute to a racing game from my childhood, built with a coding model from two prompts. The prompts are published.</p>
-          <p class="links"><a href="https://jovanveljanoski.github.io/micromachines/" rel="noopener">Play</a><a href="https://github.com/JovanVeljanoski/micromachines" rel="noopener">Code</a></p>
+          <p class="links"><a href="https://jovanveljanoski.github.io/micromachines/">Play</a><a href="https://github.com/JovanVeljanoski/micromachines">Code</a></p>
         </article>
       </div>
     </section>
@@ -93,50 +99,50 @@
       <h2 id="g-ai">AI and developer tools</h2>
       <div class="grid-3">
         <article class="card project">
-          <span class="head"><span class="logo" style="--logo-bg:#1b1e27"><img src="assets/logos/webllm.svg" alt="" width="32" height="32"></span><h3>WebLLM</h3></span>
+          <div class="head"><span class="logo"><img src="assets/logos/webllm.svg" alt=""></span><h3>WebLLM</h3></div>
           <p>An open language model with a tool-calling loop, running entirely in your browser through WebGPU.</p>
-          <p class="links"><a href="https://jovanveljanoski.github.io/webllm/" rel="noopener">Try</a><a href="https://github.com/JovanVeljanoski/webllm" rel="noopener">Code</a></p>
+          <p class="links"><a href="https://jovanveljanoski.github.io/webllm/">Try</a><a href="https://github.com/JovanVeljanoski/webllm">Code</a></p>
         </article>
         <article class="card project">
-          <span class="head"><span class="logo" style="--logo-bg:#1b1e27"><img src="assets/logos/github.svg" alt="" width="32" height="32"></span><h3>Inner Thoughts</h3></span>
+          <div class="head"><span class="logo"><img src="assets/logos/github.svg" alt=""></span><h3>Inner Thoughts</h3></div>
           <p>Generations from open-weight models, published together with the prompts so you can see how they were made.</p>
-          <p class="links"><a href="https://jovanveljanoski.github.io/inner-thoughts/" rel="noopener">View</a><a href="https://github.com/JovanVeljanoski/inner-thoughts" rel="noopener">Code</a></p>
+          <p class="links"><a href="https://jovanveljanoski.github.io/inner-thoughts/">View</a><a href="https://github.com/JovanVeljanoski/inner-thoughts">Code</a></p>
         </article>
         <article class="card project">
-          <span class="head"><span class="logo" style="--logo-bg:#1b1e27"><img src="assets/logos/github.svg" alt="" width="32" height="32"></span><h3>solara-html</h3></span>
+          <div class="head"><span class="logo"><img src="assets/logos/github.svg" alt=""></span><h3>solara-html</h3></div>
           <p>Build Solara components from a single HTML file connected to Python state.</p>
-          <p class="links"><a href="https://github.com/JovanVeljanoski/solara-html" rel="noopener">Code</a></p>
+          <p class="links"><a href="https://github.com/JovanVeljanoski/solara-html">Code</a></p>
         </article>
         <article class="card project">
-          <span class="head"><span class="logo" style="--logo-bg:#1b1e27"><img src="assets/logos/github.svg" alt="" width="32" height="32"></span><h3>QueryGem</h3></span>
+          <div class="head"><span class="logo"><img src="assets/logos/github.svg" alt=""></span><h3>QueryGem</h3></div>
           <p>A SQLite workbench in the browser, with optional Gemini-assisted queries. The database stays on your machine.</p>
-          <p class="links"><a href="https://github.com/JovanVeljanoski/querygem" rel="noopener">Code</a></p>
+          <p class="links"><a href="https://github.com/JovanVeljanoski/querygem">Code</a></p>
         </article>
         <article class="card project">
-          <span class="head"><span class="logo" style="--logo-bg:#1b1e27"><img src="assets/logos/github.svg" alt="" width="32" height="32"></span><h3>ateam</h3></span>
+          <div class="head"><span class="logo"><img src="assets/logos/github.svg" alt=""></span><h3>ateam</h3></div>
           <p>A small Python framework for AI agents, designed so the instructions each model receives are easy to inspect.</p>
-          <p class="links"><a href="https://github.com/JovanVeljanoski/ateam" rel="noopener">Code</a></p>
+          <p class="links"><a href="https://github.com/JovanVeljanoski/ateam">Code</a></p>
         </article>
         <article class="card project">
-          <span class="head"><span class="logo" style="--logo-bg:#1b1e27"><img src="assets/logos/github.svg" alt="" width="32" height="32"></span><h3>GPT log-probability examples</h3></span>
+          <div class="head"><span class="logo"><img src="assets/logos/github.svg" alt=""></span><h3>GPT log-probability examples</h3></div>
           <p>Demos that make token probabilities visible and show how to use them for classification and retrieval.</p>
-          <p class="links"><a href="https://huggingface.co/spaces/Jovan31/openai-gpt-logprobs-examples" rel="noopener">Try</a><a href="https://github.com/JovanVeljanoski/openai-gpt-logprobs-examples" rel="noopener">Code</a></p>
+          <p class="links"><a href="https://huggingface.co/spaces/Jovan31/openai-gpt-logprobs-examples">Try</a><a href="https://github.com/JovanVeljanoski/openai-gpt-logprobs-examples">Code</a></p>
         </article>
         <article class="card project">
-          <span class="head"><span class="logo" style="--logo-bg:#1b1e27"><img src="assets/logos/github.svg" alt="" width="32" height="32"></span><h3>openai-batch-utils</h3></span>
+          <div class="head"><span class="logo"><img src="assets/logos/github.svg" alt=""></span><h3>openai-batch-utils</h3></div>
           <p>A Python library for sending large numbers of asynchronous OpenAI requests from scripts and notebooks.</p>
-          <p class="links"><a href="https://github.com/JovanVeljanoski/openai-batch-utils" rel="noopener">Code</a></p>
+          <p class="links"><a href="https://github.com/JovanVeljanoski/openai-batch-utils">Code</a></p>
         </article>
         <article class="card project">
-          <span class="head"><span class="logo" style="--logo-bg:#1b1e27"><img src="assets/logos/github.svg" alt="" width="32" height="32"></span><h3>Jupyter Voicepilot</h3></span>
+          <div class="head"><span class="logo"><img src="assets/logos/github.svg" alt=""></span><h3>Jupyter Voicepilot</h3></div>
           <p>Dictate code and ask questions inside JupyterLab. Built together with Vitalii Karniushin.</p>
-          <p class="links"><a href="https://github.com/JovanVeljanoski/jupyter-voicepilot" rel="noopener">Code</a></p>
+          <p class="links"><a href="https://github.com/JovanVeljanoski/jupyter-voicepilot">Code</a></p>
         </article>
       </div>
     </section>
 
     <section class="wrap project-more">
-      <p>More small repositories and experiments are on <a href="https://github.com/JovanVeljanoski" rel="me noopener">GitHub</a>.</p>
+      <p>More small repositories and experiments are on <a href="https://github.com/JovanVeljanoski" rel="me">GitHub</a>.</p>
     </section>
   </main>
 
@@ -145,8 +151,8 @@
       <p><a href="./">← Back to the overview</a></p>
       <p class="footer-links">
         <a href="assets/Jovan-Veljanoski-CV.pdf" download>Download CV</a>
-        <a href="https://github.com/JovanVeljanoski" rel="me noopener">GitHub</a>
-        <a href="https://www.linkedin.com/in/jovanvel/" rel="me noopener">LinkedIn</a>
+        <a href="https://github.com/JovanVeljanoski" rel="me">GitHub</a>
+        <a href="https://www.linkedin.com/in/jovanvel/" rel="me">LinkedIn</a>
       </p>
     </div>
   </footer>
